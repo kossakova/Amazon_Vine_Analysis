@@ -1,5 +1,7 @@
 # Amazon Vine Analysis
 
+![AmazonVine](https://github.com/kossakova/Amazon_Vine_Analysis/blob/main/PNG/AmazonVine.jpg)
+
 ## Project Overview 
 
 In this project we were able to understand and learn how to:
@@ -32,13 +34,17 @@ Then we used PySpark and SQL to determine if there is any bias toward favorable 
 Our three block of codes gives answers to following questions:
 
 - How many Vine reviews and non-Vine reviews were there?
+  
+ There were over all total off 3093869 reviews, 18512 Vine, 3075349 Non-Vine.
+
 - How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+
+We determined that there is a total of 1781156 five-star reviews, 8044- Vine, 1773112- Non-Vine.
+
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
-- There were over all total off 3093869 reviews, 18512 Vine, 3075349 Non-Vine.
-- We determined that there is a total of 1781156 five-star reviews, 8044- Vine, 1773112- Non-Vine.
-- Our code gave us following outputs:
-- 
+Our code gave us following outputs:
+
 The percentage of five-star Vine reviews is: 43.45
 
 The percentage of five-star non-Vine reviews is: 57.66
@@ -51,5 +57,9 @@ The percentage of five-star non-Vine reviews is: 57.66
 ![Vine](https://github.com/kossakova/Amazon_Vine_Analysis/blob/main/PNG/Vine.png)
 
 ## Summary
-In this project we performed ETL on Amazon electronic product reviews and determined bias of Vine reviews.  Our analysis untlined that there is not seemed to be a positive bias related to Vine program. Although the percentage of five-star Vine reviews is: 43.45 and 57.66 of non-Vine reviews, out of 1781156 5-star reviews just 8044 were paid Vine reviews and 1773112 unpaid, which brings us to conclusion that bias does not seem to be existed.  Additional further analysis will help us fully understand of any existence of bias, for this project we could also analyze percentage of helpful votes for both paid and unpaid Vine reviews. 
+In this project we performed ETL on Amazon electronic product reviews and determined bias of Vine reviews.  
+
+Our analysis untlined that there is not seemed to be a positive bias related to Vine program. Although the percentage of five-star Vine reviews is: 43.45 and 57.66 of non-Vine reviews, out of 1781156 5-star reviews just 8044 were paid Vine reviews and 1773112 unpaid, which brings us to conclusion that bias does not seem to be existed.  
+
+Additional further analysis will help us fully understand of any existence of bias, for this project we could also analyze percentage of helpful votes for both paid and unpaid Vine reviews. 
 
